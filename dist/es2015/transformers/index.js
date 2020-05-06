@@ -1,8 +1,9 @@
 // tslint:disable:no-var-requires
 const transformers = [
     require('./template').default,
-    require('./meta').default,
     require('./title').default,
+    require('./meta').default,
+    require('./links').default,
     require('./styles').default,
     require('./preboot').default
 ];

@@ -3,8 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // tslint:disable:no-var-requires
 var transformers = [
     require('./template').default,
-    require('./meta').default,
     require('./title').default,
+    require('./meta').default,
+    require('./links').default,
     require('./styles').default,
     require('./preboot').default
 ];
